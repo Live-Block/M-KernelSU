@@ -23,9 +23,10 @@
     <string name="module_failed_to_disable">Failed to disable module: %s</string>
     <string name="module_empty">No module installed</string>
     <string name="module">Module</string>
-    <string name="module_sort_action_first">Sort (Action first)</string>
-    <string name="module_sort_enabled_first">Sort (Enabled first)</string>
+    <string name="module_sort_action_first">Sort (Action First)</string>
+    <string name="module_sort_enabled_first">Sort (Enabled First)</string>
     <string name="uninstall">Uninstall</string>
+    <string name="restore">Restore</string>
     <string name="module_install">Install</string>
     <string name="install">Install</string>
     <string name="reboot">Reboot</string>
@@ -41,7 +42,6 @@
     <string name="module_uninstall_failed">Failed to uninstall: %s</string>
     <string name="module_version">Version</string>
     <string name="module_author">Author</string>
-    <string name="module_overlay_fs_not_available">Modules are unavailable as OverlayFS is disabled by the kernel.</string>
     <string name="refresh">Refresh</string>
     <string name="show_system_apps">Show system apps</string>
     <string name="hide_system_apps">Hide system apps</string>
@@ -120,8 +120,6 @@
     <string name="install_next">Next</string>
     <string name="select_file_tip">%1$s partition image is recommended</string>
     <string name="select_kmi">Select KMI</string>
-    <string name="shrink_sparse_image">Minimize sparse image</string>
-    <string name="shrink_sparse_image_message">Resize the sparse image where the module is located to its actual size. Note that this may cause the module to work abnormally, so please only use when necessary (Such as for backup).</string>
     <string name="settings_uninstall">Uninstall</string>
     <string name="settings_uninstall_temporary">Uninstall temporarily</string>
     <string name="settings_uninstall_permanent">Uninstall permanently</string>

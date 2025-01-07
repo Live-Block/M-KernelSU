@@ -38,7 +38,6 @@
     <string name="module_uninstall_failed">فشل إلغاء التثبيت: %s</string>
     <string name="module_version">الإصدار</string>
     <string name="module_author">المطور</string>
-    <string name="module_overlay_fs_not_available">الوحدات غير متوفرة حيث يتم تعطيل نظام الملفات المتراكب بواسطة النواة.</string>
     <string name="refresh">إنعاش</string>
     <string name="show_system_apps">إظهار تطبيقات النظام</string>
     <string name="hide_system_apps">إخفاء تطبيقات النظام</string>
@@ -117,8 +116,6 @@
 \nأستمرار؟</string>
     <string name="select_kmi">اختر KMI</string>
     <string name="select_file_tip">يوصى باستخدام صورة القسم %1$s</string>
-    <string name="shrink_sparse_image">تصغير الصورة المتفرقة</string>
-    <string name="shrink_sparse_image_message">قم بتغيير حجم الصورة المتفرقة حيث توجد الإضافة إلى حجمها الفعلي. لاحظ أن هذا قد يتسبب في عمل الإضافة بشكل غير طبيعي، لذا يرجى استخدامها فقط عند الضرورة (مثل النسخ الاحتياطي).</string>
     <string name="settings_uninstall">إلغاء التثبيت</string>
     <string name="settings_uninstall_temporary">إلغاء التثبيت مؤقتًا</string>
     <string name="settings_uninstall_permanent">إلغاء التثبيت بشكل دائم</string>
@@ -132,5 +129,4 @@
     <string name="settings_uninstall_temporary_message">قم بإلغاء تثبيت KernelSU مؤقتًا، واستعد إلى حالته الأصلية بعد إعادة التشغيل التالية.</string>
     <string name="save_log">حفظ السجلات</string>
     <string name="action">إجراء</string>
-    <string name="log_saved">السجلات محفوظة</string>
 </resources>

@@ -39,7 +39,6 @@
     <string name="module_author">Auteur</string>
     <string name="module_uninstall_confirm">Êtes-vous sûr(e) de vouloir désinstaller le module %s \?</string>
     <string name="home_learn_kernelsu">Découvrir KernelSU</string>
-    <string name="module_overlay_fs_not_available">Les modules sont indisponibles car OverlayFS est désactivé par le noyau.</string>
     <string name="refresh">Rafraîchir</string>
     <string name="show_system_apps">Afficher les applications système</string>
     <string name="hide_system_apps">Masquer les applications système</string>
@@ -117,8 +116,6 @@
     <string name="install_next">Suivant</string>
     <string name="select_file_tip">L\'image de la partition %1$s est recommandée</string>
     <string name="select_kmi">Sélectionner une KMI</string>
-    <string name="shrink_sparse_image">Minimiser la taille de l\'image creuse</string>
-    <string name="shrink_sparse_image_message">Redimensionne l\'image creuse où le module est situé à sa taille réelle. Notez que cela peut entraîner un dysfonctionnement du module, veuillez utiliser cette option uniquement lorsque cela est nécessaire (par exemple pour la sauvegarde de l\'appareil).</string>
     <string name="settings_uninstall">Désinstaller</string>
     <string name="settings_uninstall_temporary">Désinstaller temporairement</string>
     <string name="settings_uninstall_permanent">Désinstaller définitivement</string>

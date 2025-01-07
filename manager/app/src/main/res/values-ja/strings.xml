@@ -38,7 +38,6 @@
     <string name="module_uninstall_failed">アンインストールに失敗: %s</string>
     <string name="module_version">バージョン</string>
     <string name="module_author">制作者</string>
-    <string name="module_overlay_fs_not_available">カーネルによって OverlayFS が無効になっているため、モジュールが利用できません。</string>
     <string name="refresh">更新</string>
     <string name="show_system_apps">システムアプリを表示</string>
     <string name="hide_system_apps">システムアプリを非表示</string>
@@ -118,8 +117,6 @@
 \n続く？</string>
     <string name="direct_install">直接インストール (推奨)</string>
     <string name="select_file">ファイルを選択してください</string>
-    <string name="shrink_sparse_image">スパースイメージを最小化</string>
-    <string name="shrink_sparse_image_message">モジュールが配置されているスパースイメージのサイズを実際のサイズに変更します。 モジュールが正常に動作しなくなる可能性がありますので、必要な場合にのみご使用ください。</string>
     <string name="settings_uninstall_permanent">完全にアンインストールする</string>
     <string name="settings_restore_stock_image">ストックイメージを復元</string>
     <string name="settings_uninstall_temporary">一時的にアンインストールする</string>
@@ -132,8 +129,4 @@
     <string name="flash_failed">フラッシュ失敗</string>
     <string name="selected_lkm">選択された LKM: %s</string>
     <string name="save_log">ログを保存</string>
-    <string name="action">アクション</string>
-    <string name="log_saved">保存されたログ</string>
-    <string name="module_sort_enabled_first">並べ替え（最初に有効）</string>
-    <string name="module_sort_action_first">並べ替え（アクション優先）</string>
 </resources>

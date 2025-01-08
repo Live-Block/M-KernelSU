@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.AnimatedContentTransitionScope
 import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.ExitTransition
@@ -120,9 +121,18 @@ private fun BottomBar(navController: NavHostController) {
                     }
                 },
                 icon = {
-                    if (isCurrentDestOnBackStack) {
+                    AnimatedVisibility(
+                        visible = isCurrentDestOnBackStack,
+                        enter = fadeIn(animationSpec = tween(340)),
+                        exit = fadeOut(animationSpec = tween(340))
+                    ) {
                         Icon(destination.iconSelected, stringResource(destination.label))
-                    } else {
+                    }
+                    AnimatedVisibility(
+                        visible = !isCurrentDestOnBackStack,
+                        enter = fadeIn(animationSpec = tween(340)),
+                        exit = fadeOut(animationSpec = tween(340))
+                    ) {
                         Icon(destination.iconNotSelected, stringResource(destination.label))
                     }
                 },

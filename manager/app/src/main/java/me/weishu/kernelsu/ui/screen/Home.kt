@@ -11,11 +11,12 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.AcUnit
 import androidx.compose.material.icons.filled.Archive
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Settings
-import androidx.compose.material.icons.outlined.Block
-import androidx.compose.material.icons.outlined.CheckCircle
+import androidx.compose.material.icons.filled.Dangerous
+import androidx.compose.material.icons.filled.AutoFixHigh
 import androidx.compose.material.icons.outlined.Warning
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -244,7 +245,7 @@ private fun StatusCard(
                     val workingText =
                         "${stringResource(id = R.string.home_working)}$workingMode$safeMode"
 
-                    Icon(Icons.Outlined.CheckCircle, stringResource(R.string.home_working))
+                    Icon(Icons.Filled.AcUnit, stringResource(R.string.home_working))
                     Column(Modifier.padding(start = 20.dp)) {
                         Text(
                             text = workingText,
@@ -270,7 +271,7 @@ private fun StatusCard(
                 }
 
                 kernelVersion.isGKI() -> {
-                    Icon(Icons.Outlined.Warning, stringResource(R.string.home_not_installed))
+                    Icon(Icons.Filled.AutoFixHigh, stringResource(R.string.home_not_installed))
                     Column(Modifier.padding(start = 20.dp)) {
                         Text(
                             text = stringResource(R.string.home_not_installed),
@@ -285,7 +286,7 @@ private fun StatusCard(
                 }
 
                 else -> {
-                    Icon(Icons.Outlined.Block, stringResource(R.string.home_unsupported))
+                    Icon(Icons.Filled.Dangerous, stringResource(R.string.home_unsupported))
                     Column(Modifier.padding(start = 20.dp)) {
                         Text(
                             text = stringResource(R.string.home_unsupported),
